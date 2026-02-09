@@ -2,18 +2,8 @@
 Dorex - это полная работа с данными в одном инструменте.
 
 # 🛠️|Установка
-    ```cd 'путь к папке с файлом Dorex0.9.py
-       pip install requests 
-       pip install colorama ``` 
+    cd 'путь к папке с файлом Dorex1.2.py'
+    pip install requirements.txt
 
-# Использование	
-    ``` python Dorex0.9.py
-
-
-	```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
+# 🔧|Использование	
+    python Dorex0.9.py
