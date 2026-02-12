@@ -8,4 +8,4 @@ Dorex - это полная работа с данными в одном инс�
     pip install requirements.txt
 
 # 🔧|Использование	
-    python Dorex0.9.py
+    python Dorex1.2.py
