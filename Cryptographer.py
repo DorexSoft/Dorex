@@ -1,8 +1,8 @@
 def Coder1():
-    print('''1. leet speak
-2. Шифр Цезаря
+    print('''[1] leet speak
+[2] Шифр Цезаря
 ''')
-    code = input('Выберите способ шифрования: ')
+    code = input('[+] Выберите способ шифрования: ')
 
     if code == 1 or code == '1':
         substitution_table = {
@@ -21,9 +21,9 @@ def Coder1():
                 else:
                     encrypted.append(char)
             return ''.join(encrypted)
-        text = input("Введите текст для шифрования: ")
+        text = input("[+] Введите текст для шифрования: ")
         encrypted_text = custom_encrypt(text)
-        print("Зашифрованный текст:", encrypted_text)
+        print("[+] Зашифрованный текст:", encrypted_text)
 
     elif code == 2 or code == '2':
         substitution_table = {
@@ -42,9 +42,9 @@ def Coder1():
                 else:
                     encrypted.append(char)
             return ''.join(encrypted)
-        text = input("Введите текст для шифрования: ")
+        text = input("[+] Введите текст для шифрования: ")
         encrypted_text = custom_encrypt(text)
-        print("Зашифрованный текст:", encrypted_text)
+        print("[+] Зашифрованный текст:", encrypted_text)
     else:
-        print('Eror')
+        print('[+] Eror')
         return

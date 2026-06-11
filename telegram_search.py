@@ -6,10 +6,11 @@ def clear_console():
 
 def user():
     global username
-    username = input('Введите имя пользователя в формате - username: ')
+    username = input('[+] Введите имя пользователя: ')
     return
 
 def info():
-    print('[+] username: ', username)
-    print('[+] info account: ' + "https://t.me/username_to_id_bot?start="+ username)
+    print(f'[+] username: @{username}')
+    print('[+] info account: ' + f"https://t.me/username_to_id_bot?start={username}")
+    print('')
     return

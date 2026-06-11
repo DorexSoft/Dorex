@@ -7,7 +7,7 @@ def shorten_url(long_url):
     if response.status_code == 200:
         return response.text
     else:
-        return "Ошибка при сокращении ссылки"
+        return "ошибка при сокращении ссылки."
 
 
 if __name__ == "__main__":

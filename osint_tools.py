@@ -78,7 +78,7 @@ num_too = ''
 def osint_tools():
     clear_console()
     print(main, tools)
-    num_too = int(input('Enter function: '))
+    num_too = int(input('[+] Enter function: '))
     if num_too == 1:
         print(fuc_1)
     elif num_too == 2:
@@ -98,5 +98,5 @@ def osint_tools():
     elif num_too == 9:
         print(fuc_9)
     else:
-        "Eror!"
+        "[+] Eror!"
     return
