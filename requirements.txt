@@ -1,8 +1,0 @@
-requests
-colorama
-phonenumbers
-bs4
-tk
-PIL
-subprocess
-pandas
